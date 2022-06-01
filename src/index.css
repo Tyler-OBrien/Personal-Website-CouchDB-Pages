@@ -63,7 +63,7 @@ p {
   padding: 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -74,4 +74,16 @@ p {
   font-size: 12px;
   margin: 0 7px 7px 0;
   padding: 7px;
+}
+
+@media (max-width: 600px) {
+  .card-container {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 1009px) and (min-width: 601px) {
+  .card-container {
+    width: 50vw;
+  }
 }
